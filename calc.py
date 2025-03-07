@@ -1,3 +1,4 @@
+# The intent of this branch is to create plot with multiple interest rates
 # HOLAMOR !
 import matplotlib.pyplot as plt
 import ipdb

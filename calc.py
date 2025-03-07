@@ -52,7 +52,7 @@ def main():
     #annual_interest_rate = float(input("Enter the annual interest rate (in %): "))
     #years = int(input("Enter the loan term (in years): "))
     
-    principal = 600000
+    principal = 650000
     annual_interest_rate = 5.0
     years= 30
 

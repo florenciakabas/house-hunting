@@ -1,3 +1,4 @@
+# HOLAMOR !
 import matplotlib.pyplot as plt
 import ipdb
 
@@ -6,7 +7,7 @@ def calculate_monthly_payment(principal, annual_interest_rate, years):
     monthly_interest_rate = annual_interest_rate / 100 / 12
     # Total number of payments
     number_of_payments = years * 12
-    
+
     # Calculate monthly payment using the formula
     monthly_payment = principal * (monthly_interest_rate * (1 + monthly_interest_rate) ** number_of_payments) / ((1 + monthly_interest_rate) ** number_of_payments - 1)
     
